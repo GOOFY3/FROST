@@ -1,2 +1,0 @@
-# FROST
-Freelancing-2

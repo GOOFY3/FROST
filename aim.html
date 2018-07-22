@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<style>
+				input[type=text], select, textarea {
+		      width: 100%;
+		      padding: 12px;
+		      border: 1px solid #ccc;
+		      border-radius: 4px;
+		      box-sizing: border-box;
+		      margin-top: 6px;
+		      margin-bottom: 16px;
+		      resize: vertical;
+		  }
+
+		  input[type=submit] {
+		      background-color: #801A12;
+		      color: white;
+		      padding: 12px 20px;
+		      border: none;
+		      border-radius: 4px;
+		      cursor: pointer;
+		  }
+
+		  input[type=submit]:hover {
+		      background-color: black;
+		  }
+
+		</style>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FROST</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- header -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #163051;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .logo img{
+    height: 130px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+
+	</head>
+	<body>
+		<div class="container">
+			<div id="container" style="position:relative">
+	  <div class="navback" style="height:140px;">
+	  </div>
+	  <div class="logo" style="position:absolute;top:17px;left:20px;float:left" >
+	    <img src="stylesheets/images/logo.png" alt="FROST" height="100px" style="float:left">
+			<p style="font-weight:bold; font-size:30px; padding:10px">FORUM FOR OCEAN SCIENTISTS AND TECHNOLOGISTS</p>
+	  </div>
+	</div>
+
+  <div class="topnav" id="myTopnav">
+	  <a href="index.html" class="active">Home</a>
+	  <a href="aim.html">Aim</a>
+	  <a href="activities.html">Activities</a>
+	  <a href="office.html">Office Bearers and Members</a>
+	  <a href="publications.html">Publications</a>
+	  <a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contact</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	    <i class="fa fa-bars"></i>
+	  </a>
+	</div>
+
+	<script>
+	function myFunction() {
+	    var x = document.getElementById("myTopnav");
+	    if (x.className === "topnav") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "topnav";
+	    }
+	}
+	</script>
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding:0">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="stylesheets/images/EnvironmentalStudies.jpg" alt="Ss" style="width: 100%;height: 437px">
+					    </div>
+
+					    <div class="item">
+					      <img src="stylesheets/images/e2.jpg" alt="Ss" style="width: 100%;height: 437px">
+					    </div>
+
+					    <div class="item">
+					      <img src="stylesheets/images/evs.jpg" alt="Ss" style="width: 100%;height: 437px">
+					    </div>
+					  </div>
+
+					  <!-- Left and right controls -->
+					  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+			</div>
+			<br>
+			</div>
+			<div class="container">
+			<div class="row" style="font-size:16px">
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<div class="card" style="border:2px solid #163051">
+						<p>
+					"World Environment Day 2018" will be organized by the Orissa Environmental Society (OES) in its premises on June 5, 2018 (Tuesday).
+					Theme: Beat Plastic Pollution</p>
+				</div><br>
+					<div class="img" style="height:330px;background-image:url('stylesheets/images/r1.jpg'); background-repeat: no-repeat; background-size: contain;background-size: cover;">
+					</div>
+					<br>
+					<div class="info">
+						<ul>
+						<li><a href="">Click here to view the Society Directory and Members List</a></li><br>
+						<li><a href="">Download Application form for Patron Membership</a></li><br>
+						<li><a href="">Download the Membership Application form.</a></li><br>
+						</ul>
+					</div>
+				</div>
+				<!-- <div class="col-lg-2 col-md-6 col-sm-12">
+				</div> -->
+				<div class="col-lg-8 col-md-12 col-sm-12" style="text-align:justify">
+					<br><br><center><h1 style="color:green">Aims and Objective</h1></center><br><br>
+          <p>The aims and objectives of the Association shall be:<br>
+        &nbsp;
+      <ul>
+        <li>
+          To form a conglomeration of specialists, scientists, experts,
+          technocrats in relation to river and water front
+        </li>
+        <li>
+          To provide a platform for generating a thought process for
+          growth in respective fields
+        </li>
+        <li>
+          To generate technological proposals in this sector and submit
+          it to the government for executive action
+        </li>
+        <li>
+          To enhance the awareness on the maritime environment &
+          transportation
+        </li>
+        <li>
+          To generate awareness among administrators, bureaucrats,
+          and public in general regarding rivers and oceans
+        </li>
+        <li>
+          To assist in enhancing the maritime safety of boats and
+          small crafts plying in and around Odisha waters
+        </li>
+        <li>
+          To study the ecology of Odisha of both the coastal and inland waters
+        </li>
+        <li>
+          To build up a platform to discuss the safety regarding boats plying
+          in Odisha waters & assist the Government agencies in providing the
+          ideas to counter various hazards faced by the fishermen and boatmen
+          of Odisha
+        </li>
+        <li>
+          To assist the Government in preparing a platform for maritime skill development
+        </li>
+        <li>
+          To work as Liaisoning Agency between the technocrats, the Government
+          and other parties, who are concerned regarding the water resources and
+          maritime sector
+        </li>
+        <li>
+          To represent the parties before the State and Union Government, Financial
+          Institutions, Banks, Public and Private Organizations for the benefit of
+          the State in general and country in whole
+        </li>
+        <li>
+          To accept Membership of any other society, association, persons, firms or
+          anybody - corporate for promoting, or intending to promote in particular
+          any of the objects of this association
+        </li>
+        <li>
+          To subscribe for, be a member of, and co-operate with any other association,
+          institutions, firm, body corporate whose objects in whole, or in part, are
+          similar to those of this Association
+        </li>
+        <li>
+          To give necessary guidance and co-operation for implementation of Projects
+          and in other areas of operation of projects
+        </li>
+        <li>
+          To assist the Parties in obtaining various types of Technical and Financial
+          Assistance available for the development of the maritime industry
+        </li>
+        <li>
+          To engage the services of Advocates, Accountants, Engineers, Consultants and
+          such other experts on different areas on payment of fees, for the benefit of
+          the Association
+        </li>
+        <li>
+          To obtain information’s, statistics relating to trade, commerce and industries
+          and circulate the same for the benefit of the Association, free or on payment
+          of nominal fees as may be decided by the committee
+        </li>
+        <li>
+          To establish or assist in establishing scientific, technical, research and
+          development institutes for the benefit of the Association
+        </li>
+        <li>
+          To arrange for organizing industrial, commercial, trade, exhibitions fairs,
+          museums for the creating awareness
+        </li>
+        <li>
+          To acquire, purchase, take on lease or otherwise, land, building, other
+          movable or immovable properties for the purpose of the Association
+        </li>
+        <li>
+          To accept gift, donation, subscription, funds on behalf of the Association
+          and to invest the same in which the Association may think proper
+        </li>
+        <li>
+          To borrow money, take loan, receive advance for fulfilling the objects of
+          the Association
+        </li>
+        <li>
+          To organize programs, seminars, symposiums on different subjects for the benefit
+          of the Association and creating awareness
+        </li>
+        <li>
+          To do all necessary Acts, incidental and ancillary for the attainment of the
+          objects of the Association.
+        </li>
+      </ul>
+				</div>
+			</div>
+			<!-- end -->
+
+			<!-- end -->
+			<!-- end -->
+		</div>
+		<div class="footer container" style="background-color:grey; height:40px; font-size:14px">
+			<center>2011 Odisha Environmental Society</center>
+			<center>All Rights Reserved</center>
+		</div>
+		</div>
+
+
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
